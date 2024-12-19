@@ -1,0 +1,113 @@
+[
+    {
+      "questionNo": "Q1",
+      "question": "Convert the fraction <sup>1</sup>&frasl;<sub>4</sub> to a decimal.",
+      "options": [
+        "0.15",
+        "0.25",
+        "0.35",
+        "0.45"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q2",
+      "question": "After converting the decimal 0.05 into a fraction and simplifying it, what is the value of the denominator?",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "100"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q3",
+      "question": "What decimal does the fraction <sup>3</sup>&frasl;<sub>16</sub> convert to?",
+      "options": [
+        "0.18",
+        "0.187",
+        "0.1875",
+        "0.2"
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q4",
+      "question": "Convert the decimal 0.09 into a fraction.",
+      "options": [
+        "./optionImg/1.jpg",
+        "./optionImg/2.jpg",
+        "./optionImg/3.jpg",
+        "./optionImg/4.jpg"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q5",
+      "question": "Multiply 7 by 0.8.",
+      "options": [
+        "7.6",
+        "6.6",
+        "5.6",
+        "4.6"
+      ],
+      "correct": 2
+    },
+    {
+      "questionNo": "Q6",
+      "question": "Multiply 0.9 by 0.2.",
+      "options": [
+        "0.18",
+        "0.28",
+        "0.08",
+        "0.12"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q7",
+      "question": "Multiply 3 by 0.25.",
+      "options": [
+        "0.075",
+        "0.57",
+        "7.5",
+        "0.75"
+      ],
+      "correct": 3
+    },
+    {
+      "questionNo": "Q8",
+      "question": "Multiply 2.5 by 0.06.",
+      "options": [
+        "0.250",
+        "0.15",
+        "0.0150",
+        "0.025"
+      ],
+      "correct": 1
+    },
+    {
+      "questionNo": "Q9",
+      "question": "Multiply 0.003 by 0.2.",
+      "options": [
+        "0.0006",
+        "0.006",
+        "0.06",
+        "0.6"
+      ],
+      "correct": 0
+    },
+    {
+      "questionNo": "Q10",
+      "question": "If you multiply 1.2 by 0.005, what is the product?",
+      "options": [
+        "6",
+        "0.6",
+        "0.06",
+        "0.006"
+      ],
+      "correct": 3
+    }
+  ]
+  

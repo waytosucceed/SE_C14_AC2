@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Converting Fractions to Decimals and Decimals to Fractions</div>
+
+        
+          <div>
+           
+            <p>
+              Understanding how to convert between fractions and decimals is fundamental in mathematics, providing a bridge between these two forms of representing numbers
+            </p>
+            <h2>Converting Fractions to Decimals</h2>
+            <p>
+              To convert a fraction to a decimal, simply divide the numerator (the top number) by the denominator (the bottom number). This division will result in a decimal that is equivalent to the original fraction.
+            </p>
+            <h3>Example:</h3>
+            <ul>
+              <li><b>Fraction:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math></li>
+              <li><b>Division:</b> Divide 3 by 4.</li>
+              <li><b>Result:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math>  = 3 ÷ 4 = 0.75</li>
+            </ul>
+            <p>
+             <b>Outcome:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>3</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> converts to 0.75 as a decimal.
+            </p>
+            <h2>Converting Decimals to Fractions</h2>
+            <p>
+              Converting a decimal to a fraction involves reversing the process used to convert a fraction to a decimal. This means expressing the decimal number as a fraction of two integers.
+            </p>
+            <h3>Steps for Converting Decimals to Fractions:</h3>
+            <ol>
+              <li><b>Identify Decimal Places:</b> Count the number of places after the decimal.</li>
+              <li><b>Create the Fraction:</b> Write the given decimal without the decimal point as the numerator of the fraction, and the denominator as 1 followed by as many zeros as there are decimal places in the decimal.</li>
+              <li><b>Simplify the Fraction:</b> Reduce the fraction to its simplest form by dividing the numerator and the denominator by their greatest common divisor or Highest Common factor (GCD or HCF).</li>
+            </ol>
+            <h3>Example:</h3>
+            <ul>
+              <li>
+                <b>Decimal:</b> 0.25
+                <ul>
+                  <li>
+                    <b>Fraction Form:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>25</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> (since there are two decimal places)
+                  </li>
+                  <br>
+                  <li>
+                    <b>Simplified:</b> <math><mfrac bevelled="true"><mfrac><msup><mi>25 ÷ 25</mi></msup></mfrac><mfrac><msup><mi>100 ÷ 25</mi></msup></mfrac></mfrac></math>  (by dividing both the numerator and the denominator by their greatest common divisor, 25)
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+             <b>Outcome:</b> 0.25 converts to <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>4</mi></msup></mfrac></mfrac></math> as a fraction.
+            </p>
+            <br>
+           <hr>
+           <h2>Multiplication with Decimals :</h2>
+           <p>
+            Multiplication with decimals is a vital skill in many areas of daily life and professional fields. Understanding how to effectively multiply decimals, whether with whole numbers or other decimals, can help in budgeting, cooking, science experiments, and more. Here’s a detailed look at two common scenarios: multiplying a whole number by a decimal, and multiplying two decimal numbers.
+           </p>
+           <h3>Multiplying a Whole Number with a Decimal Number </h3>
+           <p>
+            When multiplying a whole number by a decimal, the process is straightforward, similar to standard multiplication, but with attention to the placement of the decimal point.
+           </p>
+           <h3>Steps for Multiplying a Whole Number by a Decimal:</h3>
+           <ol>
+            <li><b>Multiply as Whole Numbers:</b> Ignore the decimal initially and multiply the numbers as if both were whole numbers.</li>
+            <li><b>Place the Decimal Point:</b> Count the number of decimal places in the decimal number. The product must have the same number of decimal places.</li>
+           </ol>
+           <h3>Example:</h3>
+           <ul>
+            <li>
+              <b>Problem:</b> Multiply 7 by 0.36.
+               <ul>
+                <li><b>Multiply as whole numbers:</b> 7 × 36 = 252.</li>
+                <li><b>Decimal places in 0.36:</b> The decimal number 0.36 has two decimal places.</li>
+                <li><b>Adjust the product:</b> Place the decimal to have two places, so the final answer is 2.52.</li>
+               </ul>
+            </li>
+           </ul>
+           <p>Result: 7 × 0.36 = 2.52.</p>
+           <h2>Multiplying a Decimal Number with a Decimal Number</h2>
+           <p>
+            Multiplying two decimals is a bit more complex but follows the same basic principles.
+           </p>
+           <h3>Steps for Multiplying Two Decimal Numbers:</h3>
+           <ol>
+            <li><b>Ignore the Decimal Points:</b> Treat both numbers as whole numbers and multiply them.</li>
+            <li><b>Count Decimal Places:</b> Add up the total number of decimal places in both multipliers.</li>
+            <li><b>Adjust the Decimal Point:</b> The number of decimal places in the product should equal the sum of the decimal places in the factors.</li>
+           </ol>
+           <h3>Example:</h3>
+           <ul>
+            <li>
+              <b>Problem:</b> Multiply 3.4 by 2.5.
+              <ul>
+                <li><b>Multiply as whole numbers:</b> 34 × 25 = 850.</li>
+                <li><b>Total decimal places:</b> 1 in 3.4 and 1 in 2.5, adding up to 2.</li>
+                <li><b>Place the decimal:</b> Adjust the product to have two decimal places, making it 8.50.</li>
+              </ul>
+            </li>
+           </ul>
+           <p>
+            <b>Result:</b> 3.4 × 2.5 = 8.50.
+           </p>
+           <br>
+           <hr>
+           <h2>Multiplying Decimal Numbers with Various Powers of 10</h2>
+           <h3>Positive Powers of 10</h3>
+           <p>
+            When you multiply a number by 10, 100, or 1,000 (which are 10<sup>1</sup>, 10<sup>2</sup>, and 10<sup>3</sup>, respectively), you shift the decimal point to the right:
+           </p>
+           <ul>
+            <li>Multiplying by 10 (10<sup>1</sup>): Move the decimal point one place to the right.
+              <ul>
+                <li><b>Example:</b> 2.3 × 10 = 23.</li>
+              </ul>
+            </li>
+            <li>Multiplying by 100 (10<sup>2</sup>): Move the decimal two places to the right.
+              <ul>
+                <li><b>Example:</b> 2.3 × 100 = 230.</li>
+              </ul>
+            </li>
+            <li>Multiplying by 1,000 (10<sup>3</sup>): Move the decimal three places to the right.
+              <ul>
+                <li><b>Example:</b> 2.3 × 1000 = 2300.</li>
+              </ul>
+            </li>
+           </ul>
+           <h3>Negative Powers of 10</h3>
+           <p>
+            When you multiply a number by 0.1, 0.01, or 0.001 (which are 10<sup>-1</sup> (= <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>10</mi></msup></mfrac></mfrac></math>), 10<sup>-2</sup>(= <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math>), and 10<sup>-3</sup>(= <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>1000</mi></msup></mfrac></mfrac></math>)), you shift the decimal point to the left, making the number smaller:
+           </p>
+           <ul>
+            <li>Multiplying by 0.1 (10<sup>-1</sup>): Move the decimal one place to the left.
+              <ul>
+                <li><b>Example:</b> 2.3 × 0.1 = 0.23.</li>
+              </ul>
+            </li>
+            <li>Multiplying by 0.01 (10<sup>-2</sup>): Move the decimal two places to the left.
+              <ul>
+                <li><b>Example:</b> 2.3 × 0.01 = 0.023.</li>
+              </ul>
+            </li>
+            <li>Multiplying by 0.001 (10<sup>-3</sup>): Move the decimal three places to the left.
+              <ul>
+                <li><b>Example:</b> 2.3 × 0.001 = 0.0023.</li>
+              </ul>
+            </li>
+           </ul>
+           <p>
+            These movements show how the number becomes smaller as you multiply by negative powers of 10.
+           </p>
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>
